@@ -1,9 +1,7 @@
 package com.demo.demoApi.Controller;
 
-import com.demo.demoApi.Model.User;
 import com.demo.demoApi.Model.UserDTO;
 import com.demo.demoApi.Service.UserService;
-import jdk.jfr.ContentType;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

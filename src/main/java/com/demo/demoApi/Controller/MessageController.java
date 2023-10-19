@@ -26,4 +26,9 @@ public class MessageController {
         return messageService.getDiscussion(userId, contactId);
     }
 
+    @GetMapping(value = "/discussion-new-messages-count", produces = "application/json")
+    public int getDiscussionNewMessagesCount(@RequestParam(name = "user_id") int userId, @RequestParam(name = "contact_id") int contactId) {
+        return messageService.getDiscussionNewMessagesCount(userId, contactId);
+    }
+
 }
